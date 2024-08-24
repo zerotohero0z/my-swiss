@@ -1,0 +1,703 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik-testnet/swisstronik-perc20-mint-token/contracts/IPERC20.sol": {
+      "lastModificationDate": 1723542792840,
+      "contentHash": "b289b85e06570b881eeee63f8c2fa076",
+      "sourceName": "contracts/IPERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IPERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik-testnet/swisstronik-perc20-mint-token/contracts/PERC20.sol": {
+      "lastModificationDate": 1723542792841,
+      "contentHash": "bc16a56cbdd6abec3d4f513a242183cf",
+      "sourceName": "contracts/PERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol",
+        "./IPERC20Metadata.sol",
+        "@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik-testnet/swisstronik-perc20-mint-token/contracts/IPERC20Metadata.sol": {
+      "lastModificationDate": 1723542792841,
+      "contentHash": "7f57548dee2762dc84e346885757677a",
+      "sourceName": "contracts/IPERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik-testnet/swisstronik-perc20-mint-token/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1723543017424,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik-testnet/swisstronik-perc20-mint-token/contracts/PERC20Sample.sol": {
+      "lastModificationDate": 1723542996315,
+      "contentHash": "bfd604b61efddcfa035263b3a041d8bc",
+      "sourceName": "contracts/PERC20Sample.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20Sample"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swiss-testnet/swisstronik-perc20-mint-token/contracts/IPERC20.sol": {
+      "lastModificationDate": 1724228040391,
+      "contentHash": "b289b85e06570b881eeee63f8c2fa076",
+      "sourceName": "contracts/IPERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IPERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swiss-testnet/swisstronik-perc20-mint-token/contracts/PERC20.sol": {
+      "lastModificationDate": 1724228040388,
+      "contentHash": "bc16a56cbdd6abec3d4f513a242183cf",
+      "sourceName": "contracts/PERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol",
+        "./IPERC20Metadata.sol",
+        "@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swiss-testnet/swisstronik-perc20-mint-token/contracts/IPERC20Metadata.sol": {
+      "lastModificationDate": 1724228040384,
+      "contentHash": "7f57548dee2762dc84e346885757677a",
+      "sourceName": "contracts/IPERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swiss-testnet/swisstronik-perc20-mint-token/contracts/PERC20Sample.sol": {
+      "lastModificationDate": 1724228414712,
+      "contentHash": "a3136ad8daae6bb8d4b45af396d54859",
+      "sourceName": "contracts/PERC20Sample.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20Sample"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swisstronik/swisstronik-perc20-mint-token/contracts/IPERC20.sol": {
+      "lastModificationDate": 1724230327441,
+      "contentHash": "b289b85e06570b881eeee63f8c2fa076",
+      "sourceName": "contracts/IPERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IPERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swisstronik/swisstronik-perc20-mint-token/contracts/PERC20.sol": {
+      "lastModificationDate": 1724230327440,
+      "contentHash": "bc16a56cbdd6abec3d4f513a242183cf",
+      "sourceName": "contracts/PERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol",
+        "./IPERC20Metadata.sol",
+        "@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swisstronik/swisstronik-perc20-mint-token/contracts/IPERC20Metadata.sol": {
+      "lastModificationDate": 1724230327439,
+      "contentHash": "7f57548dee2762dc84e346885757677a",
+      "sourceName": "contracts/IPERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/swisstronik/swisstronik-perc20-mint-token/contracts/PERC20Sample.sol": {
+      "lastModificationDate": 1724231397363,
+      "contentHash": "fe2025740f81ec20a340987c307b3e57",
+      "sourceName": "contracts/PERC20Sample.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20Sample"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/my-swiss/perc20-mint-token/contracts/IPERC20.sol": {
+      "lastModificationDate": 1724234612462,
+      "contentHash": "b289b85e06570b881eeee63f8c2fa076",
+      "sourceName": "contracts/IPERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IPERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/my-swiss/perc20-mint-token/contracts/PERC20.sol": {
+      "lastModificationDate": 1724234612460,
+      "contentHash": "bc16a56cbdd6abec3d4f513a242183cf",
+      "sourceName": "contracts/PERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol",
+        "./IPERC20Metadata.sol",
+        "@openzeppelin/contracts/utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/my-swiss/perc20-mint-token/contracts/IPERC20Metadata.sol": {
+      "lastModificationDate": 1724234612459,
+      "contentHash": "7f57548dee2762dc84e346885757677a",
+      "sourceName": "contracts/IPERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IPERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/my-swiss/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1724231258282,
+      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/phuonghoang/workspace/fusion/swiss/swisstronik3/my-swiss/perc20-mint-token/contracts/PERC20Sample.sol": {
+      "lastModificationDate": 1724234692838,
+      "contentHash": "bf810518a044b643b7ee53a73de73d73",
+      "sourceName": "contracts/PERC20Sample.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PERC20Sample"
+      ]
+    }
+  }
+}
